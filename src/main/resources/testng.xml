@@ -5,12 +5,24 @@
 	<listeners>
 		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
 	</listeners>
-	<test name="YourTestName">
-		<parameter name="browser" value="chrome" />
-        <!-- Other parameters and configurations -->
-        <classes>
-            <class name="com.xyz.qa.testcases.Customer_Account_Page_Test" />
-        </classes>
-        </test>
+	<test name="XYZ Bank App Test Cases">
+		<classes> <!-- Login page related tests --> 
+			<class name="com.xyz.qa.testcases.Customer_Login_Page_Test" />  
+			<!-- Customer account page related tests --> 
+			<class name="com.xyz.qa.testcases.Customer_Account_Page_Test" /> 
+			<!-- Transaction page related tests --> 
+			<class name="com.xyz.qa.testcases.Customer_Transaction_Page_Test" /> 
+			<!-- Deposit page related tests --> 
+			<class name="com.xyz.qa.testcases.Customer_Deposit_Page_Test" /> 
+			<!-- Withdraw page related tests --> 
+			<class name="com.xyz.qa.testcases.Customer_Withdraw_Page_Test" />
+			 <!-- Manager Add Customer page related tests --> 
+			 <class name="com.xyz.qa.testcases.Manager_Add_Customer_Page_Test" /> 
+			 <!-- Manager Open Account page related tests --> 
+			 <class name="com.xyz.qa.testcases.ManagerOpenAccountPageTest" /> 
+			 <!-- Manager Customers page related tests --> 
+			 <class name="com.xyz.qa.testcases.Manager_Customers_Page_Test" /> 
+		</classes> 
+		</test>
         
 </suite>
