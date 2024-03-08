@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XYZ Bank Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="YourTestName(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.xyz.qa.testcases.Customer_Account_Page_Test">
+        <methods>
+          <include name="verifyCustomerAccountDetails"/>
+          <include name="initialization"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.xyz.qa.testcases.Customer_Account_Page_Test -->
+    </classes>
+  </test> <!-- YourTestName(failed) -->
+</suite> <!-- Failed suite [XYZ Bank Application Test Automation Test Suite] -->
