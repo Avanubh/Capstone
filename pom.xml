@@ -123,7 +123,7 @@
           <version>2.22.1</version>
           <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>confg/testng.xml</suiteXmlFile>
+                    <suiteXmlFile>src\main\resources\testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
